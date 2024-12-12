@@ -1,0 +1,15 @@
+.container{
+    overflow: hidden;
+}
+.nav-toggle{
+    display: none;
+}
+@media screen and (max-width:991px) {
+    .nav-toggle{
+        display: none;
+        margin-right: 20px;
+          }
+    .nav-links{
+      display: none;
+      }
+}
