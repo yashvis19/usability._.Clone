@@ -4,12 +4,45 @@
 .nav-toggle{
     display: none;
 }
+.example-card{
+    height: 300px;
+}
 @media screen and (max-width:991px) {
     .nav-toggle{
-        display: none;
+        display: block;
         margin-right: 20px;
           }
     .nav-links{
       display: none;
       }
+      .example-area{
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+    .example-card{
+        width: calc(50% - 10px);
+        gap: 180px;
+    }
+    .logos{
+        justify-content: space-evenly;
+    }
+
+}
+@media screen and (max-width:767px){
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        width: 100%;
+        text-align: center;
+    }
+    .primary-button{
+        width: 100%;
+    }
+    .big-feature-container{
+        flex-direction: column;
+    }
+#special{
+    flex-direction: column-reverse;
+}
 }
