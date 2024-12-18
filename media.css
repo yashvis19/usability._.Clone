@@ -38,11 +38,20 @@
     }
     .primary-button{
         width: 100%;
+        text-align: center;
     }
     .big-feature-container{
         flex-direction: column;
     }
 #special{
     flex-direction: column-reverse;
+}
+.footer-container{
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.link-column{
+    align-items: center;
 }
 }
